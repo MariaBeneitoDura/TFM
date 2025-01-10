@@ -8,8 +8,15 @@ En el directorio **PDCM** se encuentran los siguientes _scripts_ de Stata:
 * **Grupos_alimentos.do**: clasifica los alimentos en diferentes grupos.
 * **RRR_PDCM.do**: deriva el PDCM, prepara las covariables para los modelos logísticos ordinales y ajusta dichos modelos para analizar la asociación entre las variables de aterosclerosis y la adherencia al PDCM.
 
-En el directorio **ANALISIS_DIFERENCIAL** se encuentran los siguientes directorios:
-* TRANSCRIPTOMICA:
-  * Muestras_comun_ARNm_miARN_PDCM.R:
-  * Expresion_diferencial_ARNm_miARN.R:
-  * Funcion_expresion_diferencial.R:
+En el directorio **ANALISIS_DIFERENCIAL** se encuentran los siguientes directorios y _scripts_:
+* **TRANSCRIPTOMICA**:
+  * **Muestras_comun_ARNm_miARN_PDCM.R**: obtiene los participantes con información completa de ARNm, miARN, adherencia al PDCM y covariables (edad y sexo).
+  * **Expresion_diferencial_ARNm_miARN.R**: realiza el análisis de expresión diferencial entre el grupo de alta adherencia al PDCM y el baja con los datos de ARNm y miARN.
+  * **Funcion_expresion_diferencial.R**: función para realizar el análisis diferencial con los datos de todas las ómicas.
+* **METILÓMICA**:
+  * **Muestras_comun_metilaciones_PDCM.R**: obtiene los participantes con información completa de _probes_ de metilación, adherencia al PDCM y covariables (edad y sexo).
+  * **Expresion_diferencial_metilaciones.R**: realiza el análisis de expresión diferencial entre el grupo de alta adherencia al PDCM y el baja con los datos de _probes_ de metilación.
+* **PROTEÓMICA**:
+  * **Muestras_comun_proteinas_PDCM.R**: obtiene los participantes con información completa proteínas, adherencia al PDCM y edad.
+  * **Expresion_diferencial_proteinas.R**: realiza el análisis de expresión diferencial entre el grupo de alta adherencia al PDCM y el baja con los datos de proteínas.
+  * **Genes_comun_ARNm_proteinas_DE.R**: integración de los datos de ARNm y proteínas diferencialmente expresados.
