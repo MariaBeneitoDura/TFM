@@ -9,7 +9,7 @@ drop _merge
 * Regresión de rango reducido (RRR) para derivar un patrón dietético
 rrr bpxsym bpxdim lbxglu lbxtr bmxwaist lbxhdd, x(DR1NEWFOOD1-DR1NEWFOOD45) rank(6) savevar loadings
 
-* Cálculo de la mediana de la adherencia al patrón dietético cardiometabólico (PDCM)
+* Cálculo de la mediana de la adherencia al PDCM
 xtile MedianPatternDCMf1=f1, nq(2)
 
 * Covariables de los modelos
