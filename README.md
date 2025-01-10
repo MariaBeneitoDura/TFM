@@ -7,3 +7,9 @@ Las enfermedades cardiovasculares (ECV) representan la principal causa de morbil
 En el directorio **PDCM** se encuentran los siguientes _scripts_ de Stata:
 * **Grupos_alimentos.do**: clasifica los alimentos en diferentes grupos.
 * **RRR_PDCM.do**: deriva el PDCM, prepara las covariables para los modelos logísticos ordinales y ajusta dichos modelos para analizar la asociación entre las variables de aterosclerosis y la adherencia al PDCM.
+
+En el directorio **ANALISIS_DIFERENCIAL** se encuentran los siguientes directorios:
+* TRANSCRIPTOMICA:
+  * Muestras_comun_ARNm_miARN_PDCM.R:
+  * Expresion_diferencial_ARNm_miARN.R:
+  * Funcion_expresion_diferencial.R:
