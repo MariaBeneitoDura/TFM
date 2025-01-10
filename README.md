@@ -9,6 +9,7 @@ En el directorio **PDCM** se encuentran los siguientes _scripts_ de Stata:
 * **RRR_PDCM.do**: deriva el PDCM, prepara las covariables para los modelos logísticos ordinales y ajusta dichos modelos para analizar la asociación entre las variables de aterosclerosis y la adherencia al PDCM.
 
 En el directorio **ANALISIS_DIFERENCIAL** se encuentran los siguientes directorios y _scripts_:
+* **Paquetes.R**: configuración de paquetes empleados en este trabajo.
 * **TRANSCRIPTOMICA**:
   * **Muestras_comun_ARNm_miARN_PDCM.R**: obtiene los participantes con información completa de ARNm, miARN, adherencia al PDCM y covariables (edad y sexo).
   * **Expresion_diferencial_ARNm_miARN.R**: realiza el análisis de expresión diferencial entre el grupo de alta adherencia al PDCM y el baja con los datos de ARNm y miARN.
@@ -20,3 +21,5 @@ En el directorio **ANALISIS_DIFERENCIAL** se encuentran los siguientes directori
   * **Muestras_comun_proteinas_PDCM.R**: obtiene los participantes con información completa proteínas, adherencia al PDCM y edad.
   * **Expresion_diferencial_proteinas.R**: realiza el análisis de expresión diferencial entre el grupo de alta adherencia al PDCM y el baja con los datos de proteínas.
   * **Genes_comun_ARNm_proteinas_DE.R**: integración de los datos de ARNm y proteínas diferencialmente expresados.
+
+Finalmente, el directorio **FIGURAS** contiene los _scripts_ para generar las Figuras 3.3. (**Muestras_comun_UpSet.R**), 4.1. (**Factor_loadings_grupos_alimentos.R**) y 4.2. (**Coeficientes_modelos_PDCM_aterosclerosis.R**).
