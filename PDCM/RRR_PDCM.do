@@ -57,7 +57,7 @@ replace E3Dburden_car_cat=0 if e3dcrawcsum==0 & e3dccalidi!=3 & e3dccalidd!=3
 xtile E3Dburden_fem_cat=e3dfrawcsum if e3dfrawcsum!=0 & e3dfrawcsum!=. & e3dfcalidi!=3 & e3dfcalidd!=3, nq(3)
 replace E3Dburden_fem_cat=0 if e3dfrawcsum==0 & e3dfcalidi!=3 & e3dfcalidd!=3
 
-* Modelos logísticos ordinales entre las variables de aterosclerosis y la adherencia al PDCM
+* Modelos logísticos ordinales para analizar la asociación entre las variables de aterosclerosis y la adherencia al PDCM
 ologit CACS_cat i.MedianPatternDCMf1 psqage i.dr1tsex i.Current_smoker i.Dyslipidemia i.peqmh110 i.peqmh090 i.Obesity i.peqmh140 i.University Sleep_hours i.psqmarit totalmvpa
 ologit, or
 tab MedianPatternDCMf1 if e(sample)
